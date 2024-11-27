@@ -1,0 +1,135 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background-color: rgb(245, 218, 223);
+    padding: 30px;
+    text-align: center;
+    overflow: hidden;
+
+
+}
+.list li{
+   list-style: none;
+   position: relative;
+   left: 450px;
+   display: flex;
+   gap: 10px;
+   
+   margin-bottom: 20px;
+   
+    
+    
+}
+.list i{
+   
+    color: blue;
+}
+.list ul{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    font-size: 18px;
+   
+    
+}
+.get{
+    display: flex;
+    width: 90%;
+    align-items: center;
+    margin: 20px auto;
+    position: relative;
+    left: 150px;
+}
+.spans{
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+    font-size: 26px;
+    margin-left: 70px;
+    line-height: 2.5rem;
+}
+.order{
+    color: blue;
+}
+.baker{
+    width:20%;
+}
+.baker img{
+    width: 100%;
+    border-radius: 100%;
+    box-shadow: 10px 10px 10px 10px rgb(117, 118, 207);
+}
+.cakes{
+    
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+.cakes h2{
+    position: relative;
+    bottom: 80px;
+    text-align: center;
+    color: blue;
+    background-color: white;
+    width: 90%;
+    margin: 5px auto;
+    border-radius: 10px;
+    padding: 5px;
+}
+.image{
+    width: 100%;
+}
+.image img{
+    width: 100%;
+   
+}
+.sweet{
+    text-align: center;
+}
+.location{
+    text-align: center;
+}
+.sweet h1{
+    color: rgb(184, 19, 47);
+}
+.sweet h2{
+ 
+}
+@media screen and (max-width:375px ){
+    .header{
+        width:100% ;
+        overflow: hidden;
+    }
+   
+    .one{
+        display: flex;
+        flex-direction: column;
+    }
+    .get{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        margin: 20px auto;
+        position: relative;
+        left: 0px;
+    }
+    .spans{
+        display: flex;
+        width: 30%;
+        flex-direction: column;
+        font-size: 26px;
+        margin-left: 70px;
+        line-height: 2.5rem;
+    }
+    .baker{
+        width:60%;
+    }
+    .baker img{
+        width: 100%;
+        border-radius: 100%;
+        box-shadow: 10px 10px 10px 10px rgb(117, 118, 207);
+    }
+}
