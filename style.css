@@ -3,20 +3,24 @@ body{
     margin: 0;
 }
 .header{
-    background-color: rgb(245, 218, 223);
+    background-color: black;
     padding: 30px;
     text-align: center;
     overflow: hidden;
 
 
 }
+.header h1{
+    color:white;
+}
+
 .list li{
    list-style: none;
    position: relative;
    left: 450px;
    display: flex;
    gap: 10px;
-   
+   color: red;
    margin-bottom: 20px;
    
     
@@ -49,6 +53,7 @@ body{
     font-size: 26px;
     margin-left: 70px;
     line-height: 2.5rem;
+    color: red;
 }
 .order{
     color: blue;
@@ -60,6 +65,10 @@ body{
     width: 100%;
     border-radius: 100%;
     box-shadow: 10px 10px 10px 10px rgb(117, 118, 207);
+    transition: transform 0.3s ease-in-out;
+}
+.baker img:hover{
+    transform: scale(1.2);
 }
 .cakes{
     
@@ -81,10 +90,15 @@ body{
 }
 .image{
     width: 100%;
+   
 }
 .image img{
     width: 100%;
+    transition: transform 0.3s ease-in-out;
    
+}
+.image img:hover{
+    transform:scale(1.2);
 }
 .sweet{
     text-align: center;
